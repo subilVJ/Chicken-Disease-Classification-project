@@ -9,19 +9,20 @@ project_name="cnnClassifier"
 
 list_of_files=[
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init___.py",
+    f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__py",
     f"src/{project_name}/utils/__init__py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__py",
-    f"src/{project_name}/constants/__init__py"
+    f"src/{project_name}/constants/__init__py",
     "config/config.yaml",
-    "dvc.yaml"
+    "dvc.yaml",
     "params.yaml",
-    "requirements.yaml",
+    "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
+    "templates/index.html"
 
 ]
 
